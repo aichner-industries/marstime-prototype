@@ -16,9 +16,12 @@ import {
 // Routes
 import Routes from './Routes';
 
+//> Helpers
+import { getGeneral } from './helpers/time';
+
 class App extends React.Component {
- 
   render() {
+    console.log(getGeneral('time'),getGeneral('date'),getGeneral('angle'));
     return (
       <Router>
         <div className="flyout">
