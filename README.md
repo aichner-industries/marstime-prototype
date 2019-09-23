@@ -26,14 +26,14 @@
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
-- [[](#quick-start)Quick start](#quick-startquick-start)
-- [[](#bug-and-feature-requests)Bugs and feature requests](#bug-and-feature-requestsbugs-and-feature-requests)
-- [[](#contributing)Contributing](#contributingcontributing)
-- [[](#community)Community](#communitycommunity)
-- [[](#versioning)Versioning](#versioningversioning)
-- [[](#creators)Creators](#creatorscreators)
-- [[](#thanks)Thanks](#thanksthanks)
-- [[](#copyright-and-license)Copyright and license](#copyright-and-licensecopyright-and-license)
+- [(#quick-start)Quick start](#quick-startquick-start)
+- [(#bug-and-feature-requests)Bugs and feature requests](#bug-and-feature-requestsbugs-and-feature-requests)
+- [(#contributing)Contributing](#contributingcontributing)
+- [(#community)Community](#communitycommunity)
+- [(#versioning)Versioning](#versioningversioning)
+- [(#creators)Creators](#creatorscreators)
+- [(#thanks)Thanks](#thanksthanks)
+- [(#copyright-and-license)Copyright and license](#copyright-and-licensecopyright-and-license)
 
 ## [](#quick-start)Quick start
 
