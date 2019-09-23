@@ -36,7 +36,7 @@
 
 ## [](#quick-start)Quick start
 
-- Clone the repository: `git clone https://github.com/aichner/marstime.git react-mdb`
+- Clone the repository: `git clone https://github.com/aichner/marstime.git marstime`
 - Go to the new folder `cd react-mdb`
 - Run `npm install`
 - Start with `npm start`
