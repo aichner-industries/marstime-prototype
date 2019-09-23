@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.marstime.org/" target="_blank" rel="noopener noreferrer">
-    <img src="https://www.aichner-christian.com/img/logo/marstime_h300.jpg" alt="Mars Time Logo" height="150">
+    <img src="https://www.aichner-christian.com/img/logo/marstime_h150.jpg" alt="Mars Time Logo" height="150">
   </a>
 </p>
 
