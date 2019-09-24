@@ -11,17 +11,19 @@ import {
     MDBContainer,
 } from 'mdbreact';
 
+// Marstime Logo
+import Logo from '../../../assets/logo-h50.png';
+
 class Footer extends React.Component{
     render(){
         return(
-            <MDBFooter color="agency-red" className="font-small pt-4 mt-4">
+            <MDBFooter color="agency-dark" className="font-small pt-4 mt-4">
                 <MDBContainer className="text-center text-md-left">
                     <MDBRow>
                     <MDBCol md="6">
-                        <h5 className="title">Footer Content</h5>
-                        <p>
-                        Here you can use rows and columns here to organize your footer
-                        content.
+                        <img src={Logo} className="img-fluid" />
+                        <p className="mt-2 font-weight-bold">
+                        Built for future explorers and inhabitants
                         </p>
                     </MDBCol>
                     <MDBCol md="3">
