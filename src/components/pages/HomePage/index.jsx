@@ -11,12 +11,25 @@ import {
 } from 'mdbreact';
 
 //> Images
-// To be added
+// Mars drawing
+//import Mars from '../../../assets/mars.png';
 
 class HomePage extends React.Component {
   render() {
     return (
-      null
+      <MDBContainer>
+        <MDBRow>
+          <MDBCol md="3">
+
+          </MDBCol>
+          <MDBCol md="6" className="text-center center-part">
+            
+          </MDBCol>
+          <MDBCol md="3">
+
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
     );
   }
 }

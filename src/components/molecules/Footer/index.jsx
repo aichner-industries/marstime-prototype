@@ -11,6 +11,7 @@ import {
     MDBContainer,
 } from 'mdbreact';
 
+//> Images
 // Marstime Logo
 import Logo from '../../../assets/logo-h50.png';
 
