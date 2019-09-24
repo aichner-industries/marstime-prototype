@@ -6,35 +6,36 @@ import React from 'react';
 // "Material Design for Bootstrap" is a great UI design framework
 import {
   MDBContainer,
-  MDBCol,
   MDBRow,
+  MDBCol,
 } from 'mdbreact';
 
 //> Images
-// Mars drawing
-//import Mars from '../../../assets/mars.png';
+import MarsIcon from '../../../assets/notfound.png';
 
-class HomePage extends React.Component {
+class NotFound extends React.Component {
   render() {
     return (
       <MDBContainer>
-        <MDBRow>
-          <MDBCol md="3">
-
+        <MDBRow className="flex-center text-center">
+          <MDBCol md="12">
+            <img
+            src={MarsIcon}
+            alt="Mars Not Found Icon"
+            style={{ height: "150px" }}
+            />
           </MDBCol>
-          <MDBCol md="6" className="text-center center-part">
-            
-          </MDBCol>
-          <MDBCol md="3">
-
+          <MDBCol md="12" className="pt-4">
+            <h2 className="font-weight-bold">Page not found</h2>
           </MDBCol>
         </MDBRow>
+          
       </MDBContainer>
     );
   }
 }
 
-export default HomePage;
+export default NotFound;
 
 /** 
  * SPDX-License-Identifier: (EUPL-1.2)

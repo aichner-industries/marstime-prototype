@@ -49,8 +49,10 @@
 	}
 }
 
-.red-text{
-	color: $agencyRed !important;
+// Custom pulsating
+.pulse {
+	-webkit-animation: pulse 1s infinite;
+	animation: pulse 1s infinite;
 }
 
 /** 

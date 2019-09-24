@@ -11,17 +11,20 @@ import {
     MDBContainer,
 } from 'mdbreact';
 
+//> Images
+// Marstime Logo
+import Logo from '../../../assets/logo-h50.png';
+
 class Footer extends React.Component{
     render(){
         return(
-            <MDBFooter color="agency-red" className="font-small pt-4 mt-4">
+            <MDBFooter color="agency-dark" className="font-small pt-4 mt-4">
                 <MDBContainer className="text-center text-md-left">
                     <MDBRow>
                     <MDBCol md="6">
-                        <h5 className="title">Footer Content</h5>
-                        <p>
-                        Here you can use rows and columns here to organize your footer
-                        content.
+                        <img src={Logo} className="img-fluid" />
+                        <p className="mt-2 font-weight-bold">
+                        Built for future explorers and inhabitants
                         </p>
                     </MDBCol>
                     <MDBCol md="3">
@@ -63,7 +66,15 @@ class Footer extends React.Component{
                 <div className="footer-copyright text-center py-3">
                     <MDBContainer fluid>
                         &copy; {new Date().getFullYear()} Copyright: 
-                        <a href="https://www.aichner-christian.com" target="_blank" rel="noopener noreferrer"> Werbeagentur Christian Aichner </a>
+                        <a 
+                        href="https://www.aichner-christian.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        > Werbeagentur Christian Aichner
+                        </a>
+                        <p className="my-2 font-weight-bold gidole">
+                            Made with <i className="fas fa-heart pulse red-text" aria-hidden="true"></i> by us.
+                        </p>
                     </MDBContainer>
                 </div>
             </MDBFooter>
