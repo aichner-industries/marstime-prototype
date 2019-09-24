@@ -15,7 +15,7 @@ import {
     MDBContainer,
 } from 'mdbreact';
 
-// React Logo
+// Marstime Logo
 import Logo from '../../../assets/logo-h50.png';
 
 class Navbar extends React.Component{
