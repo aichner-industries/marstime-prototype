@@ -13,6 +13,7 @@ import {
     MDBNavItem,
     MDBNavLink,
     MDBContainer,
+    MDBIcon,
 } from 'mdbreact';
 
 // Marstime Logo
@@ -48,7 +49,7 @@ class Navbar extends React.Component{
                 <MDBNavbar color="agency-dark" dark expand="md" fixed="top" scrolling>
                 <MDBContainer>
                     <MDBNavbarBrand href="/" className="py-0 font-weight-bold">
-                    <img src={Logo} style={{ height: "50px" }} />
+                    <img src={Logo} style={{ height: "50px" }} alt="Marstime Logo" />
                     </MDBNavbarBrand>
                     <MDBNavbarToggler
                     onClick={this.toggleCollapse("mainNavbarCollapse")}
@@ -62,10 +63,10 @@ class Navbar extends React.Component{
                         <MDBNavItem>
                             <MDBNavLink
                                 exact
-                                to="/"
+                                to="/me"
                                 onClick={this.closeCollapse("mainNavbarCollapse")}
                             >
-                                <strong>Home</strong>
+                                <strong><MDBIcon icon="tablet-alt" className="pr-2" />My sol</strong>
                             </MDBNavLink>
                         </MDBNavItem>
                     </MDBNavbarNav>
