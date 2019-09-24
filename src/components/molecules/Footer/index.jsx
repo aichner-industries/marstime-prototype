@@ -65,7 +65,15 @@ class Footer extends React.Component{
                 <div className="footer-copyright text-center py-3">
                     <MDBContainer fluid>
                         &copy; {new Date().getFullYear()} Copyright: 
-                        <a href="https://www.aichner-christian.com" target="_blank" rel="noopener noreferrer"> Werbeagentur Christian Aichner </a>
+                        <a 
+                        href="https://www.aichner-christian.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        > Werbeagentur Christian Aichner
+                        </a>
+                        <p className="my-2 font-weight-bold gidole">
+                            Made with <i className="fas fa-heart pulse red-text" aria-hidden="true"></i> by us.
+                        </p>
                     </MDBContainer>
                 </div>
             </MDBFooter>
