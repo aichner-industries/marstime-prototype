@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.marstime.org/" target="_blank" rel="noopener noreferrer">
-    <img src="https://www.aichner-christian.com/img/logo/marstime_h150.jpg" alt="Mars Time Logo" height="150">
+    <img src="https://github.com/aichner-industries/marstime/blob/master/src/assets/logo-h70.png?raw=true" alt="Mars Time Logo" height="70">
   </a>
 </p>
 
@@ -11,8 +11,6 @@
   <a href="https://github.com/aichner/marstime/issues/new?template=bug_report.md">Report bug</a>
   ·
   <a href="https://github.com/aichner/marstime/issues/new?template=feature_request.md">Request feature</a>
-  ·
-  <a href="https://www.aichner-christian.com/damn/dev">Blog</a>
   <br>
   <br>
   <a href="https://www.codacy.com/app/aichner/marstime">
@@ -37,7 +35,7 @@
 ## [](#quick-start)Quick start
 
 - Clone the repository: `git clone https://github.com/aichner/marstime.git marstime`
-- Go to the new folder `cd react-mdb`
+- Go to the new folder `cd marstime`
 - Run `npm install`
 - Start with `npm start`
 
@@ -96,7 +94,7 @@ to [contribute to our project](#contributing).
 ![GitHub repository license](https://img.shields.io/badge/license-EUPL--1.2-blue)
 
 SPDX-License-Identifier: (EUPL-1.2)
-Copyright © 2019 Werbeagentur Christian Aichner
+Copyright © 2019-2020 Christian Aichner
 
 [discord-badge]: https://img.shields.io/badge/Discord-Join%20chat%20%E2%86%92-738bd7.svg
 [discord]: https://discord.gg/dnxUJmk
